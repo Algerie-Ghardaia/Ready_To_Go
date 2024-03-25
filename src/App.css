@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1175px;
+  margin: 0 auto;
+  
+}
+
+
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  
+}
+
+.on {
+  width: 150px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.off {
+  width: 150px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button{
+  padding: 16px;
+  width: 80px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.active {
+  color: white;
+  background-color: #5c48d3;
+}
+
+.inactive {
+  color: #5c48d3;
+}
+
+.btn{
+  margin-left: 50px;
+  width: 200px;
+  text-align: center;
+  
+}
+.go{
+  background-color: greenyellow;
+  margin-left: 50px;
+  width: 200px;
+  text-align: center;
+  padding: 16px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+.go1{
+  background-color: red;
+  margin-left: 50px;
+  width: 200px;
+  text-align: center;
+  padding: 16px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+.btn1{
+
+  background-color: rgb(255, 47, 47);
+  margin-right: 50px;
+  width: 200px;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+}
